@@ -27,16 +27,9 @@ Given a certain breackthrough curve (BTC) it deduces:
                 
 % PART 2 - Advection-Dispersion properties
                 % Best-fitting ADE in different assumptions
-                %     1) v is fixed and equal to L/t_peak; 
-                %     Q is calculated via dilution gauging method;  
-                %     A is calculated = Q/v;  D is calibrated
-                %     2) v is fixed and equal to L/t_peak - Q is measured by
-                %     v-notch upstream - A is fixed (Q/v) - D is calibrated
-                %     Mass recovered from the injection =/= mass injected and it 
-                %     will be equal to Q_measured*sum of concentration
-                %     3) v is calibrated - A is calibrated - D is
-                %     calibrated -> this option uses Monte Carlo
-                %     approach/latin hypercube 
+                %     1) v is fixed and equal to L/t_peak; Q is calculated via dilution gauging method; A is calculated = Q/v;  D is calibrated.
+                %     2) v is fixed and equal to L/t_peak - Q is measured by v-notch upstream - A is fixed (Q/v) - D is calibrated. Note: Mass recovered from the injection =/= mass injected and it will be equal to Q_measured * sum of concentration 
+                %     3) v is calibrated - A is calibrated - D is calibrated -> this option uses Monte Carlo or latin hypercube sampling.
 
 % PART 3 - TSM properties - random sampling of TSM parameters (v, A, D, Alpha, ATS) via latin hypercube or MonteCarlo, 
                 parameter sensitivity and uncertainty with global and dynamic identifiability analysis. After the first TSM simulation, this third part
