@@ -48,25 +48,47 @@ The complete code list include the following scripts:
 BTC_analysis -> MASTER SCRIPT
 
 ADE_analysis -> Function to solve and deduce Advection-Dispersion properties (Part 2)
+
 ADE_collection1 -> Needed for ADE_analysis (figures)
+
 ADE_collection2 -> Needed for ADE_analysis (figures)
+
 BTC_prop -> Function to deducte BTC properties (part 1)
+
 control.ino -> File needed for OTIS
+
 conversion -> converting Electrical conductivity into Chloride concentration / removal of 0-values / removal of background values / BTC adaptation to < 198 values
+
 DATA.INP -> File needed for OTIS
+
 Dynia -> Dynamic identifiability analysis (Wagener et al., 2002), Adapted script for the TSM parameters (v, A, D, Alpha, ATS) and save of 90% confidence limits and information content
+
 echo-out -> File needed for OTIS
+
 figure_OTIS -> Global Identifiability Analysis for the first TSM simulation
+
 MonteCarlo -> RandomSampling and ADE solving (3rd case for PART 2 main code objectives)
+
 nthOTIS_MonteCarlo -> RandomSampling and TSM solving for the n-th TSM simulation (new restricted parameter range defined by the modeller - discharge restrition) 
+
 ObjFun -> "Objective function" function
+
 OTIS.EXE -> OTIS software (Runkel, 1998)
+
 OTIS_MonteCarlo -> RandomSampling and TSM solving for the 1st TSM simulation (large param range defined by literature and ADE solution - no discharge restrition) 
+
 OTIS_run -> Building of the txt files to properly run OTIS software during the loop simulation for TSM
+
 PARAMS.INP -> File needed for OTIS
+
 params.template -> File needed for OTIS
+
 q.template -> File needed for OTIS
+
 Q.INP -> File needed for OTIS
+
 soluteout.out -> File needed for OTIS
+
 StatFigures -> Global identifiability analysis for ADE (based on RMSE)
+
 StatFigures_var -> Global identifiability analysis for ADE (based on NSE, logRMSE, and KGE)
