@@ -16,7 +16,7 @@ for successive TSM simulations with restricted parameter range to reduce or remo
 
 The script has been written in MATLAB R2020a and for properly run a Latin Hypercube sampling it requires the "lhsdesign" function 
 (eg. Statistics and Machine Learning Toolbox). However, exhaustive explanations are written in every script of the code, and a second 
-option, using a MonteCarlo sampling, is already implemented as a second option.
+option, using a MonteCarlo sampling, is already implemented.
 
 Given a certain breackthrough curve (BTC) it deduces:
 % PART 1 - General breackthrough curve properties
