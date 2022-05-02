@@ -32,7 +32,7 @@ end
 % measurement which increases the overall computational time.
 
 % Step one -> recognize we can have some values that are still background
-% concentration, but slightly above the minimum. This choices have to been
+% concentration, but slightly above the minimum. This choice has to be
 % accurately considered by the modeller. 
 % Here there is a suggested solution:
 
@@ -46,7 +46,7 @@ clear beginning_rise
 
 % Method 2 - Authomatised background removal 
 % If we have 4 consecutive concentration increase -> The BTC arrived. Take
-% the maximum concentration value before the arrival of the BTC.and remove
+% the maximum concentration value before the arrival of the BTC and remove
 % it from the measured BTC.
 
 [FX] = gradient(EC(:,2));
