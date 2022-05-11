@@ -1,5 +1,5 @@
 # BTC_analysis
-Code developed by Enrico Bonanno (2021) on the base of OTIS-MCAT software developed by Ward et al., (2017).
+Code developed by Enrico Bonanno (2021) on the basis of OTIS-MCAT software developed by Ward et al., (2017).
 
 To properly work this code has to be saved into a "Program_files" folder directly into the local disk (C:) path.
 Eg: C:\Program_Files\BTC_Analysis
